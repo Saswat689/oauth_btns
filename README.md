@@ -9,11 +9,10 @@ This library was developed seeking the need of oauth buttons that reflected bran
 Paste the javascript and css in the html `head` to get started
 
 ```
-	<!-- import js and css files -->
+<!-- import js and css files -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Saswat689/oauth_btns/dist/script.js"></script>
 
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Saswat689/oauth_btns/dist/script.js"></script>
-    
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/Saswat689/oauth_btns/dist/style.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/Saswat689/oauth_btns/dist/style.css">
 ```
 
 ## API
