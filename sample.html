@@ -15,17 +15,26 @@
 </head>
 <body>
     <!-- add a container for the button -->
-    <div id="g-oauth-btn"></div>
+
+    <div style="display: flex; flex-direction: column; height: 300px; align-items: stretch;">
+        <div id="google" class="oauth_btn"></div>
+        <div id="github" class="oauth_btn"></div>
+        <div id="facebook" class="oauth_btn"></div>
+        <div id="twitter" class="oauth_btn"></div>
+        <div id="linkedin" class="oauth_btn"></div>
+    </div>
 
     <script>
         // call the renderButton method. Arguments ('oauth-provider',container,options)
         // oauth-provider can be any one of these: google,github,facebook,linkedin,twitter
         // options can contain width which is the width of button on all screen sizes and responsiveWidth 
         // which is width < 600 px only.
-        const container = document.getElementById('g-oauth-btn')
-        oauth_btn.renderButton('google',container,{
-            width: "30",
-            responsiveWidth: "100"
+        const buttons = document.querySelectorAll('.oauth_btn');
+        buttons.forEach(btn => {
+            oauth_btn.renderButton(btn.id,btn,{
+                width: "25",
+                responsiveWidth: "100"
+            })
         })
     </script>
 </body>

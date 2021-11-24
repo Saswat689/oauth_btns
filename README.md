@@ -1,5 +1,7 @@
 # Oauth Button - A Library for Rendering beautiful and responsive Oauth buttons
 
+![example banner from the library](/screenshots/example1.png)
+
 This library was developed seeking the need of oauth buttons that reflected brand colours. For example google has a brand colour of blue as a background and a colourful icon. Facebook also has some deep brand colours. The main aim was to provide designs to developers which they can integrate with a backend server to perform auth operations.
 
 ## API 🚀
@@ -39,7 +41,7 @@ const container = document.getElementById('g-oauth-btn')
 
 > **Output**
 
-![Exammple output from the library](/screenshots/example2.png)
+![Example output from the library](/screenshots/example2.png)
 
 ## New Features
 
