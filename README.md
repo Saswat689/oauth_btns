@@ -4,7 +4,19 @@
 
 This library was developed seeking the need of oauth buttons that reflected brand colours. For example google has a brand colour of blue as a background and a colourful icon. Facebook also has some deep brand colours. The main aim was to provide designs to developers which they can integrate with a backend server to perform auth operations.
 
-## API 🚀
+## Getting Started 🚀
+
+Paste the javascript and css in the html `head` to get started
+
+```
+	<!-- import js and css files -->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Saswat689/oauth_btns/dist/script.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/Saswat689/oauth_btns/dist/style.css">
+```
+
+## API
 
 The oauth_btn is provided as a global variable in which you can call certain methods. The first version of this api has only one method namely renderButton(). And we are working to add more flexibility to it.
 
